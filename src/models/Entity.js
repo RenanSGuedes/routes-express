@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const PointSchema = require('./PointSchema')
 
-mongoose.connect('mongodb+srv://omnistack_database:canto4789@cluster0-efbho.mongodb.net/new_base?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://omnistack_database:<password>@cluster0-efbho.mongodb.net/<test>?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
